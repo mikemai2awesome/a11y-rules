@@ -18,9 +18,9 @@ A collection of rules (or instructions) for AI assistants to write better, more 
 
 ## Tips
 
-- Even with these specific rules, AI can still make mistakes. Always consult an accessibility expert to review your code.
-- Whenever you know of a proven accessible example, try to add it as a context when prompting.
-- Save WCAG and ARIA docs as PDFs and attach them as the knowledge for the AI.
+- Always consult an accessibility expert to review your code because AI will make mistakes
+- Whenever you know of a proven accessible example, add it as a context when prompting
+- Save WCAG and ARIA docs as PDFs and attach them as the knowledge for the AI
 - Add the [context7](https://github.com/upstash/context7) MCP for more up-to-date docs
 
 ## License
