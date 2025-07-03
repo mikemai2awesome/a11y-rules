@@ -1,14 +1,14 @@
 # A11y Rules
 
-A collection of rules (or instructions) for AI assistants to write better, more accessible HTML and CSS. Written by designer coder [Mike Mai](https://mikemai.net).
+A collection of rules (or instructions) for AI assistants to write better, more accessible HTML and CSS for your web projects. Written by designer coder [Mike Mai](https://mikemai.net).
 
 ## Key Principles
 
 - **Accessibility First**: All code should meet WCAG 2.2 standards
 - **Semantic HTML**: Use meaningful HTML elements that convey structure and purpose
-- **Modern CSS**: Leverage CSS cascade layers, logical properties, and relative units
-- **Progressive Enhancement**: Build with vanilla JavaScript and focus on core functionality
+- **Lightweight CSS**: Modern CSS (e.g. cascade layers, logical properties, prefers-reduced-motion, etc.) and no utility class soup
 - **Responsive Design**: Use relative units and flexible layouts
+- **Progressive Enhancement**: Build with vanilla JavaScript and focus on core functionality
 
 ## Usage
 

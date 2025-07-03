@@ -12,7 +12,6 @@ Coding Standards:
 - Use CSS logical properties for all styling (e.g., `margin-inline-start` instead of `margin-left`, `block-size` instead of `height`)
 - Use vanilla JavaScript only (no frameworks or libraries)
 - Use semantic HTML elements that convey meaning and structure
-- Use modern CSS techniques and reference [Modern CSS](https://moderncss.dev/) for best practices
 - Use CSS cascade layers to organize all CSS in this order: `@layer config, resets, components, utilities`
 - Use `@layer config` for CSS custom properties (variables)
 - Use `@layer resets` for general CSS resets and normalizations
@@ -40,6 +39,8 @@ Coding Standards:
 - Use HTML `<nav>` element and HTML `<button>` element with `aria-expanded` attribute to build global navigation with multiple levels
 - Don't use `role=menu`, `role=menuitem`, and `aria-haspopup` to build navigation
 - Don't write text in all caps. Use CSS `text-transform` instead
+- Don't use Tailwind CSS
+- Don't use Radix and Shadcn
 
 Implementation Priority:
 1. Semantic HTML structure
