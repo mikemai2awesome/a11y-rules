@@ -1,4 +1,4 @@
-# AI Web Development Rules
+# A11y Rules
 
 A collection of rules (or instructions) for AI assistants to write better, more accessible HTML and CSS.
 
