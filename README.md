@@ -12,7 +12,7 @@ A collection of rules (or instructions) for AI assistants to write better, more 
 
 ## Usage
 
-1. Copy the text in the `rules.md`
+1. Copy the text in the `rules.txt`
 2. Paste the text into the rules (or instructions) input within your AI tool of choice (e.g. Cursor, Windsurf, Claude, etc.)
 3. Depending on your needs, you could re-organize the rules into user rules and project specific rules
 
