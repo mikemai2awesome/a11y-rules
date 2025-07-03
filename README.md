@@ -1,6 +1,6 @@
 # A11y Rules
 
-A collection of rules (or instructions) for AI assistants to write better, more accessible HTML and CSS.
+A collection of rules (or instructions) for AI assistants to write better, more accessible HTML and CSS. Written by designer coder [Mike Mai](https://mikemai.net).
 
 ## Key Principles
 
@@ -21,6 +21,7 @@ A collection of rules (or instructions) for AI assistants to write better, more 
 - Even with these specific rules, AI can still make mistakes. Always consult an accessibility expert to review your code.
 - Whenever you know of a proven accessible example, try to add it as a context when prompting.
 - Save WCAG and ARIA docs as PDFs and attach them as the knowledge for the AI.
+- Add the [context7](https://github.com/upstash/context7) MCP for more up-to-date docs
 
 ## License
 
