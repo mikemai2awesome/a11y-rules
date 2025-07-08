@@ -1,4 +1,4 @@
-![og-image](https://github.com/user-attachments/assets/09b60f0e-fdfd-4c87-95a8-7a760d71e4e8)
+![og-image](https://github.com/user-attachments/assets/e766f3f0-1ba9-41f8-b77c-d23d5db8372b)
 
 # A11y Rules
 
