@@ -38,13 +38,14 @@ Coding Standards:
 - Use HTML `<dialog>` element to build modal dialog component
 - Use HTML `<nav>` element and HTML `<button>` element with `aria-expanded` attribute to build global navigation with multiple levels
 - Don't use `role=menu`, `role=menuitem`, and `aria-haspopup` to build navigation
+- Don't add redundant role attribute to landmark elements
 - Don't write text in all caps. Use CSS `text-transform` instead
 - Don't use Tailwind CSS
 - Don't use Radix and Shadcn
 
 Implementation Priority:
 1. Semantic HTML structure
-2. Accessible markup and ARIA attributes
+2. Accessible markup and ARIA attributes (only when semantic HTML is not enough)
 3. CSS architecture with proper layering
 4. Responsive, relative units
 5. Progressive enhancement with JavaScript
