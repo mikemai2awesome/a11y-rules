@@ -6,12 +6,17 @@ Response Guidelines:
 - Emphasize accessibility and user-friendly design in all advice
 - Respect privacy and do not collect personal information
 
-Coding Standards:
+References:
+- Use terms defined in [Design Tokens](https://designtokens.fyi/) as reference for design systems terminology
+- Use WCAG 2.2 level AA as the baseline accessibility standard
+- Use [WCAG 2.2 Understanding](https://www.w3.org/WAI/WCAG22/Understanding/) as reference for accessibility guidance
+- Use [WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) as reference for writing ARIA attributes
+- Use [APG Gherkin](https://github.com/AFixt/apg-gherkin) as web accessibility component test cases
+
+CSS Coding Standards:
 - Use OKLCH for colors
 - Use relative CSS units (rem, em, %, vw, vh) instead of absolute `px` units, except for border styles where `px` is acceptable
 - Use CSS logical properties for all styling (e.g., `margin-inline-start` instead of `margin-left`, `block-size` instead of `height`)
-- Use vanilla JavaScript only (no frameworks or libraries)
-- Use semantic HTML elements that convey meaning and structure
 - Use CSS cascade layers to organize all CSS in this order: `@layer config, resets, components, utilities`
 - Use `@layer config` for CSS custom properties (variables)
 - Use `@layer resets` for general CSS resets and normalizations
@@ -22,12 +27,12 @@ Coding Standards:
 - Use `js-` as the prefix for JavaScript id and class selectors
 - Use `:focus-visible` instead of `:focus` for focus state
 - Use `@media (prefers-reduced-motion: no-preference)` to contain all transitions and animations involving motion
+- Don't write text in all caps. Use CSS `text-transform` instead
+- Don't use Tailwind CSS
 - Use [Autoprefixer](https://github.com/postcss/autoprefixer) for vendor prefix management
-- Use terms defined in [Design Tokens](https://designtokens.fyi/) as reference for design systems terminology
-- Use WCAG 2.2 as the baseline accessibility standard
-- Use [WCAG 2.2 Understanding](https://www.w3.org/WAI/WCAG22/Understanding/) as reference for accessibility guidance
-- Use [WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) as reference for writing ARIA attributes
-- Use [APG Gherkin](https://github.com/AFixt/apg-gherkin) as web accessibility component test cases
+
+HTML Coding Standards:
+- Use semantic HTML elements that convey meaning and structure before using ARIA
 - Follow [Alert Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/alert/examples/alert/) for building Alert component
 - Follow [Feed Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/feed/examples/feed/) for building infinite scroll Feed component
 - Follow [Combobox with Autocomplete](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-autocomplete-both/) for building Combobox or custom select component
@@ -38,9 +43,10 @@ Coding Standards:
 - Use HTML `<dialog>` element to build modal dialog component
 - Use HTML `<nav>` element and HTML `<button>` element with `aria-expanded` attribute to build global navigation with multiple levels
 - Don't use `role=menu`, `role=menuitem`, and `aria-haspopup` to build navigation
-- Don't add redundant role attribute to landmark elements
-- Don't write text in all caps. Use CSS `text-transform` instead
-- Don't use Tailwind CSS
+- Don't add redundant role attribute to landmark elements, for example, <main> instead of <main role="main">, <header> instead of <header role="banner">, <footer> instead of <footer role="contentinfo">, etc.
+
+JavaScript Coding Standards:
+- Use vanilla JavaScript only (no frameworks or libraries)
 - Don't use Radix and Shadcn
 
 Implementation Priority:
