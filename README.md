@@ -40,14 +40,13 @@ Build an accordion component by conforming to the accessibility rules.
 I believe OKLCH gives a wider range of colors but it will also depend on whether your monitor supports it. So this is experimental now, feel free to change to your preferred colors.
 
 ### What's wrong with Tailwind CSS, Radix and Shadcn?
-If you are vibe coding, you don't need to overcomplicate your project with frameworks. These frameworks might come with accessibilty and performance issues that will get in your way.
+If you are vibe coding, you don't need to overcomplicate your project with frameworks. These frameworks might come with accessibility and performance issues that will get in your way.
 
 ### Do I have to use every rule?
 These rules are intended for users who do not know how to code, let alone accessibility. If you are a seasoned dev, you should just pick the ones you agree with.
 
 ### How can I be involved?
 Submit issues!
-
 
 ## License
 
