@@ -14,10 +14,18 @@ A collection of rules (or instructions) for AI assistants to write better, more 
 
 ## Usage
 
-1. Copy the text in the `rules.txt`
+1. Copy the text in the [rules.txt](rules.txt)
 2. Paste the text into the rules (or instructions) input within your AI tool of choice (e.g. Cursor, Windsurf, Claude, etc.)
 3. Depending on your needs, you could re-organize the rules into user rules and project specific rules
 4. You also don't have to agree with every rule, they are my opinions after all. Treat this like a CSS reset, remove wht you don't need.
+
+## Example Prompt
+
+Ask the agent to conform to the accessibility rules (or whatever you decide to name your rules) along with your prompt.
+
+```
+Build an accordion component by conforming to the accessibility rules.
+```
 
 ## Tips
 
