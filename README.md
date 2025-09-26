@@ -17,7 +17,7 @@ A collection of rules (or instructions) for AI assistants to write better, more 
 1. Copy the text in the [rules.txt](rules.txt)
 2. Paste the text into the rules (or instructions) input within your AI tool of choice (e.g. Cursor, Windsurf, Claude, etc.)
 3. Depending on your needs, you could re-organize the rules into user rules and project specific rules
-4. You also don't have to agree with every rule, they are my opinions after all. Treat this like a CSS reset, remove wht you don't need.
+4. You also don't have to agree with every rule, they are my opinions after all. Treat this like a CSS reset, remove what you don't need.
 
 ## Example Prompt
 
@@ -33,6 +33,21 @@ Build an accordion component by conforming to the accessibility rules.
 - Whenever you know of a proven accessible example, add it as a context when prompting
 - Save WCAG and ARIA docs as PDFs and attach them as the knowledge for the AI
 - Add the [context7](https://github.com/upstash/context7) MCP for more up-to-date docs
+
+## FAQ
+
+### Why focus on OKLCH?
+I believe OKLCH gives a wider range of colors but it will also depend on whether your monitor supports it. So this is experimental now, feel free to change to your preferred colors.
+
+### What's wrong with Tailwind CSS, Radix and Shadcn?
+If you are vibe coding, you don't need to overcomplicate your project with frameworks. These frameworks might come with accessibilty and performance issues that will get in your way.
+
+### Do I have to use every rule?
+These rules are intended for users who do not know how to code, let alone accessibility. If you are a seasoned dev, you should just pick the ones you agree with.
+
+### How can I be involved?
+Submit issues!
+
 
 ## License
 
