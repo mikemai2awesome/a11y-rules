@@ -32,7 +32,8 @@ CSS Coding Standards:
 - Use [Autoprefixer](https://github.com/postcss/autoprefixer) for vendor prefix management
 
 HTML Coding Standards:
-- Use semantic HTML elements that convey meaning and structure before using ARIA
+- Use semantic HTML elements that convey meaning instead of generic elements like `<div>`, `<span>`, and `<section>` without `aria-label`
+- Use semantic HTML elements before using ARIA
 - Follow [Alert Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/alert/examples/alert/) for building Alert component
 - Follow [Feed Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/feed/examples/feed/) for building infinite scroll Feed component
 - Follow [Combobox with Autocomplete](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-autocomplete-both/) for building Combobox or custom select component
