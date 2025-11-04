@@ -43,8 +43,9 @@ HTML Coding Standards:
 - Use HTML `<details>` and `<summary>` elements to build accordion component
 - Use HTML `<dialog>` element to build modal dialog component
 - Use HTML `<nav>` element and HTML `<button>` element with `aria-expanded` attribute to build global navigation with multiple levels
-- Don't use `role=menu`, `role=menuitem`, and `aria-haspopup` to build navigation
+- Don't use role=menu, role=menuitem, and aria-haspopup to build navigation (e.g. <nav> or <div role="navigation">)
 - Don't add redundant role attribute to landmark elements, for example, <main> instead of <main role="main">, <header> instead of <header role="banner">, <footer> instead of <footer role="contentinfo">, etc.
+- Don't use the title attribute on HTML elements except for <iframe> elements
 
 JavaScript Coding Standards:
 - Use vanilla JavaScript only (no frameworks or libraries)
