@@ -4,6 +4,8 @@
 
 A collection of rules (or instructions) for AI assistants to write better, more accessible HTML and CSS for your web projects. Written by designer coder [Mike Mai](https://mikemai.net).
 
+Note: this is also available as an [agent skill](https://github.com/mikemai2awesome/agent-skills).
+
 ## Key Principles
 
 - **Accessibility First**: All code should meet WCAG 2.2 standards
