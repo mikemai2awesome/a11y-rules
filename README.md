@@ -2,9 +2,9 @@
 
 # A11y Rules
 
-A collection of rules (or instructions) for AI assistants to write better, more accessible HTML and CSS for your web projects. Written by designer coder [Mike Mai](https://mikemai.net).
+⚠️ WARNING: this is also available as an [agent skill](https://github.com/mikemai2awesome/agent-skills) and that is the preferred way. I will no longer maintain this.
 
-Note: this is also available as an [agent skill](https://github.com/mikemai2awesome/agent-skills).
+A collection of rules (or instructions) for AI assistants to write better, more accessible HTML and CSS for your web projects. Written by designer coder [Mike Mai](https://mikemai.net).
 
 ## Key Principles
 
